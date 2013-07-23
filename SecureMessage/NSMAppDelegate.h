@@ -11,5 +11,6 @@
 @interface NSMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSOperationQueue *cryptoQueue;
 
 @end

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SecureMessage Lite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SecureMessage copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SecureMessage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>A94D4147179D168000C9F753</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A94D4168179EC54700C9F753</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A94D4184179EC54800C9F753</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9AE6816179EC5D700E29AB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -21,6 +21,19 @@
 		A94D414C179D168000C9F753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94D412E179D168000C9F753 /* UIKit.framework */; };
 		A94D4154179D168000C9F753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94D4152179D168000C9F753 /* InfoPlist.strings */; };
 		A94D4156179D168000C9F753 /* SecureMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D4155179D168000C9F753 /* SecureMessageTests.m */; };
+		A94D4163179D170500C9F753 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94D4162179D170500C9F753 /* Security.framework */; };
+		A94D4164179DC7C400C9F753 /* SecKeyWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D4161179D16DE00C9F753 /* SecKeyWrapper.m */; };
+		A9AE6818179EC5D700E29AB2 /* SecKeyWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D4161179D16DE00C9F753 /* SecKeyWrapper.m */; };
+		A9AE6819179EC5D700E29AB2 /* NSMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D4140179D168000C9F753 /* NSMViewController.m */; };
+		A9AE681A179EC5D700E29AB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D4136179D168000C9F753 /* main.m */; };
+		A9AE681B179EC5D700E29AB2 /* NSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D413A179D168000C9F753 /* NSMAppDelegate.m */; };
+		A9AE681D179EC5D700E29AB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94D4162179D170500C9F753 /* Security.framework */; };
+		A9AE681E179EC5D700E29AB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94D412C179D168000C9F753 /* CoreGraphics.framework */; };
+		A9AE681F179EC5D700E29AB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94D412E179D168000C9F753 /* UIKit.framework */; };
+		A9AE6820179EC5D700E29AB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94D412A179D168000C9F753 /* Foundation.framework */; };
+		A9AE6822179EC5D700E29AB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94D4142179D168000C9F753 /* Images.xcassets */; };
+		A9AE6823179EC5D700E29AB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94D4133179D168000C9F753 /* InfoPlist.strings */; };
+		A9AE6824179EC5D700E29AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94D413C179D168000C9F753 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,11 @@
 		A94D4151179D168000C9F753 /* SecureMessageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureMessageTests-Info.plist"; sourceTree = "<group>"; };
 		A94D4153179D168000C9F753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A94D4155179D168000C9F753 /* SecureMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureMessageTests.m; sourceTree = "<group>"; };
+		A94D4160179D16DE00C9F753 /* SecKeyWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecKeyWrapper.h; sourceTree = "<group>"; };
+		A94D4161179D16DE00C9F753 /* SecKeyWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecKeyWrapper.m; sourceTree = "<group>"; };
+		A94D4162179D170500C9F753 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A9AE6828179EC5D700E29AB2 /* SecureMessage copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecureMessage copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE6829179EC5D700E29AB2 /* SecureMessage copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SecureMessage copy-Info.plist"; path = "/Users/joris/Developer/XCode/SecureMessage/SecureMessage copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94D4163179D170500C9F753 /* Security.framework in Frameworks */,
 				A94D412D179D168000C9F753 /* CoreGraphics.framework in Frameworks */,
 				A94D412F179D168000C9F753 /* UIKit.framework in Frameworks */,
 				A94D412B179D168000C9F753 /* Foundation.framework in Frameworks */,
@@ -76,6 +95,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9AE681C179EC5D700E29AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AE681D179EC5D700E29AB2 /* Security.framework in Frameworks */,
+				A9AE681E179EC5D700E29AB2 /* CoreGraphics.framework in Frameworks */,
+				A9AE681F179EC5D700E29AB2 /* UIKit.framework in Frameworks */,
+				A9AE6820179EC5D700E29AB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +116,7 @@
 				A94D414F179D168000C9F753 /* SecureMessageTests */,
 				A94D4129179D168000C9F753 /* Frameworks */,
 				A94D4128179D168000C9F753 /* Products */,
+				A9AE6829179EC5D700E29AB2 /* SecureMessage copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +125,7 @@
 			children = (
 				A94D4127179D168000C9F753 /* SecureMessage.app */,
 				A94D4148179D168000C9F753 /* SecureMessageTests.xctest */,
+				A9AE6828179EC5D700E29AB2 /* SecureMessage copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +133,7 @@
 		A94D4129179D168000C9F753 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A94D4162179D170500C9F753 /* Security.framework */,
 				A94D412A179D168000C9F753 /* Foundation.framework */,
 				A94D412C179D168000C9F753 /* CoreGraphics.framework */,
 				A94D412E179D168000C9F753 /* UIKit.framework */,
@@ -112,6 +145,7 @@
 		A94D4130179D168000C9F753 /* SecureMessage */ = {
 			isa = PBXGroup;
 			children = (
+				A94D415F179D16C200C9F753 /* Security */,
 				A94D4139179D168000C9F753 /* NSMAppDelegate.h */,
 				A94D413A179D168000C9F753 /* NSMAppDelegate.m */,
 				A94D413C179D168000C9F753 /* Main.storyboard */,
@@ -152,6 +186,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A94D415F179D16C200C9F753 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				A94D4160179D16DE00C9F753 /* SecKeyWrapper.h */,
+				A94D4161179D16DE00C9F753 /* SecKeyWrapper.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +233,23 @@
 			productReference = A94D4148179D168000C9F753 /* SecureMessageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A9AE6816179EC5D700E29AB2 /* SecureMessage copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AE6825179EC5D700E29AB2 /* Build configuration list for PBXNativeTarget "SecureMessage copy" */;
+			buildPhases = (
+				A9AE6817179EC5D700E29AB2 /* Sources */,
+				A9AE681C179EC5D700E29AB2 /* Frameworks */,
+				A9AE6821179EC5D700E29AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SecureMessage copy";
+			productName = SecureMessage;
+			productReference = A9AE6828179EC5D700E29AB2 /* SecureMessage copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,6 +260,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Notificare;
 				TargetAttributes = {
+					A94D4126179D168000C9F753 = {
+						DevelopmentTeam = HY7WGYR4J7;
+					};
 					A94D4147179D168000C9F753 = {
 						TestTargetID = A94D4126179D168000C9F753;
 					};
@@ -220,6 +283,7 @@
 			targets = (
 				A94D4126179D168000C9F753 /* SecureMessage */,
 				A94D4147179D168000C9F753 /* SecureMessageTests */,
+				A9AE6816179EC5D700E29AB2 /* SecureMessage copy */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +307,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9AE6821179EC5D700E29AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AE6822179EC5D700E29AB2 /* Images.xcassets in Resources */,
+				A9AE6823179EC5D700E29AB2 /* InfoPlist.strings in Resources */,
+				A9AE6824179EC5D700E29AB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -250,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94D4164179DC7C400C9F753 /* SecKeyWrapper.m in Sources */,
 				A94D4141179D168000C9F753 /* NSMViewController.m in Sources */,
 				A94D4137179D168000C9F753 /* main.m in Sources */,
 				A94D413B179D168000C9F753 /* NSMAppDelegate.m in Sources */,
@@ -261,6 +336,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A94D4156179D168000C9F753 /* SecureMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE6817179EC5D700E29AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AE6818179EC5D700E29AB2 /* SecKeyWrapper.m in Sources */,
+				A9AE6819179EC5D700E29AB2 /* NSMViewController.m in Sources */,
+				A9AE681A179EC5D700E29AB2 /* main.m in Sources */,
+				A9AE681B179EC5D700E29AB2 /* NSMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +461,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joris Verbogt (QWNN2H6Y6W)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SecureMessage/SecureMessage-Prefix.pch";
 				INFOPLIST_FILE = "SecureMessage/SecureMessage-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6692C4F6-97B7-4231-8D15-211F05C0BDAB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,10 +476,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joris Verbogt (QWNN2H6Y6W)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SecureMessage/SecureMessage-Prefix.pch";
 				INFOPLIST_FILE = "SecureMessage/SecureMessage-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6692C4F6-97B7-4231-8D15-211F05C0BDAB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -436,6 +526,40 @@
 			};
 			name = Release;
 		};
+		A9AE6826179EC5D700E29AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joris Verbogt (QWNN2H6Y6W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureMessage/SecureMessage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "STRONG_CRYPTO_ENABLED=1";
+				INFOPLIST_FILE = "SecureMessage copy-Info.plist";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "SecureMessage copy";
+				PROVISIONING_PROFILE = "6692C4F6-97B7-4231-8D15-211F05C0BDAB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9AE6827179EC5D700E29AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joris Verbogt (QWNN2H6Y6W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureMessage/SecureMessage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "STRONG_CRYPTO_ENABLED=1";
+				INFOPLIST_FILE = "SecureMessage copy-Info.plist";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "SecureMessage copy";
+				PROVISIONING_PROFILE = "6692C4F6-97B7-4231-8D15-211F05C0BDAB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,6 +579,7 @@
 				A94D415B179D168000C9F753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94D415C179D168000C9F753 /* Build configuration list for PBXNativeTarget "SecureMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +588,16 @@
 				A94D415E179D168000C9F753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AE6825179EC5D700E29AB2 /* Build configuration list for PBXNativeTarget "SecureMessage copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AE6826179EC5D700E29AB2 /* Debug */,
+				A9AE6827179EC5D700E29AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
